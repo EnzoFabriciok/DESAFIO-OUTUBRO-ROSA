@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FF69B4;
+  color: #E4EEF1;
+  height: 12vh;
+}
+header img {
+  height: 10vh;
+}
+header a {
+  color: #E4EEF1;
+}
+
+.conteinerLogo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: 35vw;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteinerPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FFD9EC;
+  height: 27vh;
+}
+.conteinerPrincipal section {
+  height: 10vh;
+  width: 60vw;
+}
+.conteinerPrincipal img {
+  height: 25vh;
+}
+
+.conteinerSecundario {
+  width: 60%;
+}
+
+.conteinerMeio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FF69B4;
+  color: #E4EEF1;
+  height: 19vh;
+}
+.conteinerMeio section {
+  width: 50vw;
+}
+.conteinerMeio img {
+  width: 30vh;
+}
+
+.conteinerFinal {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFD9EC;
+  height: 32vh;
+}
+.conteinerFinal img {
+  width: 14vw;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FF69B4;
+  height: 10vh;
+}
+footer img {
+  height: 10vh;
+}
+footer p {
+  font-size: 1.6vh;
+}
+
+.redesSociais {
+  width: 10%;
+}
+.redesSociais img {
+  height: 4vh;
+}
+
+.creditos {
+  text-align: center;
+  color: #E4EEF1;
+}
+
+p {
+  font-size: 2vh;
+}/*# sourceMappingURL=style.css.map */
