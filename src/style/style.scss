@@ -38,10 +38,15 @@ ul {
 .prevenção {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     text-align: center;
+    justify-content: space-around;
     background-color: #FFD9EC;
     height: 27vh;
+
+    p {
+        width: 50%;
+        font-size: 18px;
+    }
 
     img {
         height: 25vh;
@@ -58,12 +63,12 @@ ul {
     color: #E4EEF1;
     height: 19vh;
 
-    section {
-        width: 50vw;
-    }
     img {
         width: 30vh;
         border-radius: 5px;
+    }
+    p {
+        width: 50%;
     }
 }
 
@@ -105,10 +110,6 @@ footer {
     color: #E4EEF1;
 }
 
-p {
-    font-size: 2vh;
-}
-
 @media (max-width: 760px) {
     header {
         flex-direction: column;
@@ -126,6 +127,7 @@ p {
         height: 50%;
 
         p {
+            width: 80%;
             font-size: 13px;
         }
         img {
@@ -138,6 +140,7 @@ p {
         height: 40%;
 
         p {
+            width: 80%;
             font-size: 13px;
         }
     }
@@ -150,14 +153,14 @@ p {
     }
 
     footer {
-        img {
-            height: 50px;
-        }
         section {
-            width: 60vw;
+            width: 39%;
             p {
                 font-size: 11px;
             }
-        }        
-    }
+        }
+        img {
+            height: 50px;
+        }
+    }    
 }

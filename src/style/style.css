@@ -41,10 +41,14 @@ ul {
 .prevenção {
   display: flex;
   align-items: center;
-  justify-content: space-around;
   text-align: center;
+  justify-content: space-around;
   background-color: #FFD9EC;
   height: 27vh;
+}
+.prevenção p {
+  width: 50%;
+  font-size: 18px;
 }
 .prevenção img {
   height: 25vh;
@@ -60,12 +64,12 @@ ul {
   color: #E4EEF1;
   height: 19vh;
 }
-.conscientização section {
-  width: 50vw;
-}
 .conscientização img {
   width: 30vh;
   border-radius: 5px;
+}
+.conscientização p {
+  width: 50%;
 }
 
 .dicas {
@@ -105,10 +109,6 @@ footer p {
   color: #E4EEF1;
 }
 
-p {
-  font-size: 2vh;
-}
-
 @media (max-width: 760px) {
   header {
     flex-direction: column;
@@ -124,6 +124,7 @@ p {
     height: 50%;
   }
   .prevenção p {
+    width: 80%;
     font-size: 13px;
   }
   .prevenção img {
@@ -134,6 +135,7 @@ p {
     height: 40%;
   }
   .conscientização p {
+    width: 80%;
     font-size: 13px;
   }
   .dicas {
@@ -142,13 +144,13 @@ p {
   .dicas img {
     width: 20%;
   }
-  footer img {
-    height: 50px;
-  }
   footer section {
-    width: 60vw;
+    width: 39%;
   }
   footer section p {
     font-size: 11px;
+  }
+  footer img {
+    height: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
